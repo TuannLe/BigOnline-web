@@ -1,10 +1,15 @@
 import { useState } from 'react'
 import './App.css'
+import Header from './presentation/components/Header'
+import Container from './presentation/pages/container'
+import Footer from './presentation/components/Footer'
 
 function App() {
   return (
     <div>
-      <p className="text-2xl text-red-400">Hello</p>
+      <Header />
+      <Container />
+      <Footer />
     </div>
   )
 }
